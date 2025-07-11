@@ -1,23 +1,20 @@
-# EDUMATE – Student Social Media App (Android)
+# EDUMATE – Full Android Social App for Students
 
-This is a simplified Android Studio project structure for EDUMATE – a social app for students to post and solve study questions.
+This is the final, complete Android Studio project for EDUMATE – a student-focused social media app that allows posting academic questions, searching by topic, commenting, and profile management.
 
 ## Features
-- Login/Register (Firebase Ready)
-- Post a question with subject tags
-- Browse feed and search posts
-- Comment and engage with others
-- User profile
+- Firebase Login & Signup
+- Post Questions with subject tags
+- View Feed (RecyclerView)
+- Add Comments
+- Search by subject/tag
+- User Profile with update
+- Realtime DB integration
 
-## Project Structure
-- Java: `com.edumate.MainActivity.java`
-- Layouts: `res/layout/activity_main.xml`
-- Firebase: Ready to integrate via Firebase Assistant
-
-## How to Run
+##  Setup
 1. Open in Android Studio
-2. Connect to Firebase project (via Tools > Firebase)
-3. Add `google-services.json` to `app/`
-4. Run the app on emulator or device
+2. Add your Firebase `google-services.json` in `app/`
+3. Sync Gradle, then Build & Run
 
-Author: Sumit Kumar Das
+## Author
+Sumit Kumar Das
